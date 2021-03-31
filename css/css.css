@@ -1,0 +1,94 @@
+footer {
+    text-align: center;
+    height: auto;
+    position: relative;
+    width: auto;
+    z-index: 99999;
+    margin-top: 23vh;
+}
+
+.main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.main-content .box {
+
+    margin: -13px -53px;
+    margin-top: 10%;
+}
+
+.bottom center {
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #7471cc85
+}
+
+.bottom center span {
+    color: #f9ffe6;
+
+}
+
+.bottom center a {
+    color: #d64cc7;
+    text-decoration: none;
+}
+
+.bottom center a:hover {
+    text-decoration: underline;
+
+}
+
+.box .content::before {
+
+    position: absolute;
+    content: '';
+    top: -8px;
+    height: 2px;
+    width: 100%;
+    background: #a7a6c985;
+    left: 2%;
+
+}
+
+.right form .btn {
+    margin-top: 10px;
+    margin-bottom: 10%;
+    width: 49%;
+    background: #a7a6c91c;
+}
+
+.right form .btn button {
+    height: 50px;
+    width: 100px;
+    border: none;
+    outline: none;
+    background: #a04cd6b3;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.left .content p {
+    text-align: justify;
+    padding-top: 10%;
+}
+
+.left .content-text {
+    color: #dda0dd;
+    font-size: 1.0625rem;
+}
+
+.center .content .text {
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+    color: #dda0dd;
+}
+
+.right form .text {
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color: #dda0dd;
+}
